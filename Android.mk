@@ -5,5 +5,20 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),guacamoleb)
-
+$(call add-radio-file-sha1-checked,radio/LOGO.img,a5c74a189ab7550cc881bb4bdc47c80f761c8a41)
+$(call add-radio-file-sha1-checked,radio/abl.img,7d4360056270c0355bfa626cb6d93b4b67090a8e)
+$(call add-radio-file-sha1-checked,radio/aop.img,a1bfdb87cc6c0540508dee2524894ab2f6570116)
+$(call add-radio-file-sha1-checked,radio/bluetooth.img,601aea071cf2df9b1f78bf26459e0c17b53ec256)
+$(call add-radio-file-sha1-checked,radio/cmnlib.img,74fc43bfee95f2a7baa2cbb5e59bb7b02bb98e18)
+$(call add-radio-file-sha1-checked,radio/cmnlib64.img,f503ec20f299e6fb16d276459c2e5d25d8424ad6)
+$(call add-radio-file-sha1-checked,radio/devcfg.img,3bfdb908cb3ef1747cc11e65cf1b20d8b50e3279)
+$(call add-radio-file-sha1-checked,radio/dsp.img,23ef73d138e250b822c3c31462a4625745ee2fd0)
+$(call add-radio-file-sha1-checked,radio/hyp.img,e466b399c7b085285a217b22a99c363f52bf5b54)
+$(call add-radio-file-sha1-checked,radio/keymaster.img,e5589aaf25ae1fcf24f5c585cd21f03cdf00e6d7)
+$(call add-radio-file-sha1-checked,radio/modem.img,2d5e574d2760fb34c2186d53951cfadf510d7cca)
+$(call add-radio-file-sha1-checked,radio/qupfw.img,fd0328202365a9131c188c88f88c03c3991d28a5)
+$(call add-radio-file-sha1-checked,radio/storsec.img,32d7e2f9a753622a07ee02c5c601052f62c1db9f)
+$(call add-radio-file-sha1-checked,radio/tz.img,5a4533b09b19bdb779fa15c048d8a92462deab99)
+$(call add-radio-file-sha1-checked,radio/xbl.img,b2e6b73ca6b9e1f418e728c3b8d4caa1821331b4)
+$(call add-radio-file-sha1-checked,radio/xbl_config.img,257242c70d331da98e62d0b65e2ab67cdacd2c9c)
 endif
